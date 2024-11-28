@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font_size:14 px;
+	background:#f2f2f2;
+}
+.container{
+	background:burlywood;
+	width: 500px;
+	padding:25px;
+	margin:50px auto 0;
+	border-bottom: 5px solid blue;
+	box-shadow: 15 0 15px 15px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.container h2{
+	font-size: 25px;
+	line-height: 25px;
+	padding:20px;
+	text-align: center;
+}
+.input-name{
+	width: 100%;
+	position: relative;
+	margin: 20px auto;
+
+}
+.lock{
+	padding: 8px 11px;
+}
+.name{
+	width: 35%;
+	padding: 8px 0px 8px 40px
+}
+.input-name span{
+	margin-left: 15px;
+	padding: 8px 0px 8px 40px
+}
+
+.text-name{
+	width: 90%;
+	padding: 8px 0px 8px 40px;
+
+}
+.radio-button{
+	width:10%;
+	padding: 8px 0px 8px 40px;
+}
+.country{
+	width:60%;
+	padding: 8px 0px 8px 40px;
+}
+.input-name i{
+	position: absolute;
+	font-size: 18px;
+	border-right: 2px solid #cccccc;
+}
+.button{
+	background-color: brown;
+	color: white;
+	height: 35px;
+	width: 100%;
+	border: none;
+	cursor:pointer;
+}
